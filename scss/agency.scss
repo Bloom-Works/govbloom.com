@@ -12,3 +12,12 @@
 @import "team.scss";
 @import "contact.scss";
 @import "footer.scss";
+
+.navbar-brand {
+  width: 125px;
+  background: url(../img/bloom.svg) center center no-repeat;
+  background-size: 125px 50px;
+  margin: 0;
+  text-shadow: none;
+  color: transparent!important;
+}
