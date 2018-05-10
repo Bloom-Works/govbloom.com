@@ -13,6 +13,12 @@
 @import "contact.scss";
 @import "footer.scss";
 
+@media(min-width:768px) {
+  section {
+    padding: 100px 0;
+  }
+}
+
 .navbar-brand {
   width: 125px;
   background: url(../img/bloom.svg) center center no-repeat;
@@ -20,4 +26,12 @@
   margin: 0;
   text-shadow: none;
   color: transparent!important;
+}
+
+.bg-dark h2 {
+  color: #f7f7f7;
+}
+
+.bg-dark .text-muted {
+  color: #c7c5c7!important;
 }
