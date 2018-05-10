@@ -13,6 +13,13 @@
 @import "contact.scss";
 @import "footer.scss";
 
+
+section {
+  h3.section-subheading {
+    line-height: 2rem;
+    font-size: 1.3rem;
+  }
+}
 @media(min-width:768px) {
   section {
     padding: 100px 0;
@@ -34,4 +41,8 @@
 
 .bg-dark .text-muted {
   color: #c7c5c7!important;
+}
+
+.card-body li {
+  margin-bottom: 0.75rem;
 }

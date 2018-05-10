@@ -502,6 +502,10 @@ ul.social-buttons {
     ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons li a:hover {
       background-color: #96bf3f; }
 
+section h3.section-subheading {
+  line-height: 2rem;
+  font-size: 1.3rem; }
+
 @media (min-width: 768px) {
   section {
     padding: 100px 0; } }
@@ -519,3 +523,6 @@ ul.social-buttons {
 
 .bg-dark .text-muted {
   color: #c7c5c7 !important; }
+
+.card-body li {
+  margin-bottom: 0.75rem; }
